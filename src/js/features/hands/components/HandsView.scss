@@ -1,0 +1,29 @@
+table.hands-table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  table-layout: fixed;
+
+  td {
+    font-size: 12px;
+    width: 34px;
+    height: 34px;
+    padding: 4px;
+    border-radius: 4px;
+    border-color: #adadad;
+    border: 1px solid;
+    background-color: #E7EFF7;
+    text-align: center;
+  }
+
+  td.suited {
+    background-color: #FFE7B5;
+  }
+
+  td.pair {
+    background-color: #CEDEC6;
+  }
+
+  td.range {
+    background-color: #6BB5FF;
+  }
+}
